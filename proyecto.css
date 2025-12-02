@@ -60,24 +60,23 @@
     text-align: left;
 }
 
-.btn-top {
+/* ===== BOTÓN VOLVER AL INICIO ===== */
+.btn-arriba {
     position: fixed;
-    top: 20px;           /* Ajusta la distancia desde arriba */
-    right: 20px;         /* Ajusta la distancia desde la derecha */
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    font-size: 22px;
-    cursor: pointer;
-    backdrop-filter: blur(4px);
-    transition: 0.3s ease;
-    z-index: 9999;
+    top: 20px;
+    right: 20px;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    z-index: 999;
 }
 
-.btn-top:hover {
-    background: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
+.btn-arriba:hover {
+    background: #f0f0f0;
 }
