@@ -13,7 +13,7 @@
     <h1 class="titulo">FORMULARIO DE CONSULTA</h1>
 
     <div class="form-container">
-        <img src="img/logo transparente (2) (1).png"   class="logo">
+        <img src="img/logo transparente (2) (1).png" class="logo">
 
         <form onsubmit="enviarMensaje(); return false;">
             <label>Nombre completo</label>
@@ -31,7 +31,8 @@
 
     <script>
         function enviarMensaje() {
-            alert("Enviado correctamente, proximamente obtendras una respuesta");
+            alert("Enviado correctamente, próximamente obtendrás una respuesta");
+            document.querySelector("form").reset();  // Limpia todas las casillas
         }
     </script>
 
